@@ -1,3 +1,7 @@
+@font-face {
+    font-family: roboto;
+    src: url(./assets/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
 *{
   margin: 0;
    padding: 0;
@@ -6,4 +10,107 @@
 html,body{
    height: 100%;
    width: 100%;
+   overflow: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.content{
+    height: 97%;
+    width: 98%;
+    display: flex;
+    
+    margin: 15px;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    background-color: #FCC60C;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+    padding-left: 50px;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: #FAE8B4;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    align-items: flex-end;
+    padding-right: 40px;
+}
+
+.logo{
+    height: 80px;
+
+}
+.poke-ball{
+   position: absolute;
+   bottom: 0;
+}
+.ball{
+    height: 150px;
+}
+.left-text{
+  padding: 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-family: roboto;
+}
+.subheading{
+  font-weight: bolder;
+  letter-spacing: 6px ;
+}
+.heading {
+ 
+  font-size:50px;
+  font-weight:bolder ;
+}
+.description{
+  line-height: 25px;
+  color:#473a04 ;
+}
+.index{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.index .line{
+  width: 35px;
+  background-color: black;
+  height: 2px;
+}
+.index .number{
+  
+  font-weight: bolder;
+}
+.pika-img{
+    height: 70vh;
+    position: absolute;
+    left: 710px;
+    bottom: 100px;
+}
+.circles{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.right i{
+    font-size: 45px;
+}
+#black-circle{
+    background-color: black;
+    
+}
+.white-circle{
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    background-color: #d3c0899b;
 }
