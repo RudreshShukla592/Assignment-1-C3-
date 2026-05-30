@@ -5,7 +5,8 @@ A landing page recreation built using **HTML5** and **CSS3** as part of **Assign
 ## 🔗 Links
 
 * **Live Demo:** https://rudreshshukla592.github.io/Assignment-1-C3-/
-
+  
+> Best viewed on desktop screens.
 
 ## 📸 Preview
 
